@@ -9,4 +9,9 @@ function | usage | input type | output type
 encode | encoding | string | string
 decode | decoding | string | string
 
+```python
+ print Encode('Jason123')
+ print Decode(Encode('Jason123'))
+```
+
 ## **WARNING:** Since this is a WIP,this **ONLY** works on Jason123.
